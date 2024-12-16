@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def get_homepage
-    render({})
+    render({ :template => "pages_templates/home"})
   end
 end
